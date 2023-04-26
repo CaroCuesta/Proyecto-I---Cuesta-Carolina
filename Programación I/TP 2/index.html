@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Boca Abajo Boca Arriba</title>
+    
+</head>
+</head>
+<body>
+    <header>
+        <div>
+        </div>
+            <ul>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="experiencias.html">EXPERIENCIAS</a></li>
+               <li><img src="images/logo.svg" alt="Logo BocaAbajo" id="logo"></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="resenas.html">RESERVAS</a></li>
+
+            <a>
+        </nav>
+    </header>
+    <section>
+        <article class="principal">
+            <div>
+                <img src="images/banner principal.jpg" alt=""
+                class="bannerprincipal">
+    
+            </div>
+            </article>
+        <article class="secundario">
+            <div class="image-container">
+                <div id="descripcion"> 
+                  <h1>Bocabajo es nuestro sótano de experiencias. Una cocina abierta que recibe a distintos cocineros y se transforma en un restorán secreto que funciona sólo con reserva previa. 
+                    Cada semana hay propuestas diferentes que podes ver en nuestra sección de Experiencias. Cocineros, bartenders y somelliers traen sus propuestas gastronómicas, se fusionan y hacen del lugar una caja de pandoras que no deja de sorprender al participante.
+                    Alta cocina en un clima íntimo, vinos de bodegas poco conocidas que podes seleccionar directamente desde la cava, champagne para brindar y cada noche la misma consigna: la fiesta termina cuando se apagan las velas.</h1>
+                </div>
+              </div>
+              
+        </div>
+        </article>
+        <div>
+            <div class="tercero">
+                <img src="images/1.JPG">
+                <img src="images/2.JPG">
+                <img src="images/3.JPG">
+                <img src="images/4.JPG">
+            </div>
+        </div>
+        </article>
+        <div class="contact-form">
+            <form>
+                <form action="/submit-form" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                  </form>
+                  
+             </form>
+        </div>
+    </section>
+    <footer>
+        <br>
+        <br>
+        <img src="images/logo-facebook.png" alt="Facebook">
+        <img src="images/logo-instagram.png" alt="Instagram">
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "barratop") {
+            x.className += " responsive";
+          } else { 
+            x.className = "barratop";
+          }
+        }
+    </script>
+</body>
+</html>
